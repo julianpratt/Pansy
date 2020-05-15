@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputPath>bin</OutputPath>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <Authors>Julian Pratt</Authors>
+    <AssemblyTitle>Pansy</AssemblyTitle>
+    <Description>Flight Simulator</Description>
+    <Summary>Flight Simulator</Summary>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <PackageId>Pansy</PackageId>
+    <AssemblyName>Pansy</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <PublishTrimmed>false</PublishTrimmed>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <PublishSingleFile>true</PublishSingleFile>
+    <RuntimeIdentifier>osx-x64</RuntimeIdentifier>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Pansy.cs" />
+  </ItemGroup>
+</Project>
